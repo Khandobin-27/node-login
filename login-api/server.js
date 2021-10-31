@@ -9,8 +9,8 @@ const db = knex({
       host : '127.0.0.1',
       port : 5432,
       user : 'postgres',
-      password : 'Mamamela27',
-      database : 'node-login'
+      password : 'YOUR DATABASE PASSWORD',
+      database : 'YOUR DATABASE NAME'
     }
 });
 
