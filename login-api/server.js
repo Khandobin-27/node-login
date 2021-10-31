@@ -14,7 +14,7 @@ const db = knex({
     }
 });
 
-//test line to see if the users from database are connected
+//test line to see if the users from database are connected to the front-end
 db.select('*').from('users').then(data => {
     console.log(data)
 })
