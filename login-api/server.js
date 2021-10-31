@@ -14,7 +14,7 @@ const db = knex({
     }
 });
 
-
+//test line to see if the users from database are connected
 db.select('*').from('users').then(data => {
     console.log(data)
 })
@@ -105,8 +105,3 @@ app.get('/profile/:id', (req, res) => {
 app.listen(3000, () => {
     console.log('Server is running')
 })
-
-/*
-/profile/:userId -> GET = user
-
-*/
